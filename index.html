@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shantanu Sengupta</title>
+    <title>Random Quote Generator</title>
     <script src="myscripts.js"></script>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,31 +32,32 @@
 
 </head>
 
-<body onload="setRandomBackground();">
+<body>
 
     <div class="header text-center">
-         <h2 style="font-size: 72px;">RANDOM QUOTE GENERATOR</h2>
-     
-            
-      
+         <h2 style="font-size: 80px">RANDOM QUOTE GENERATOR</h2>
     </div>
+    
     <br><br><br>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8 text-center quote-region">
-                 <div id="quote-area" style="font-size: 30px; font-family: Lobster"></div>     
 
-        </div>
-        <div class="col-lg-2"></div>
-    </div>
-</div>
-<br><br><br>
-<center><button class="btn btn-outline" onclick="newQuote()">Create Quote!</button></center>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<footer class="text-center">
-    References : Forbes - Top 100 Inspirational Quotes, Source : http://www.forbes.com/sites/kevinkruse/2013/05/28/inspirational-quotes/#4edac29c6697
-</footer>
+	<div class="container-fluid">
+	    <div class="row">
+	        <div class="col-lg-2"></div>
+	        <div class="col-lg-8 text-center quote-region">
+	                 <div id="quote-area"></div>     
+
+	        </div>
+	        <div class="col-lg-2"></div>
+	    </div>
+	</div>
+
+	<br><br><br>
+
+	<center><button class="btn btn-outline" onclick="newQuote()">Create Quote!</button></center>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<footer class="text-center">
+	    References : Forbes - Top 100 Inspirational Quotes, Source : http://www.forbes.com/sites/kevinkruse/2013/05/28/inspirational-quotes/#4edac29c6697
+	</footer>
 
 
 </body>

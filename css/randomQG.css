@@ -12,8 +12,7 @@ body {
 {
 
   width: 100%;
-  height: 100px;
-  
+  min-height: 100px;
   display: inline-block;
   margin: auto;
   justify-content: center;
@@ -22,12 +21,11 @@ body {
 
 #quote-area
 {
-  
-  height: 200px;
-
-
-  
-  
+  min-height: 200px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  font-family: 'Lobster';
+  font-size: 45px;
 }
 
 .btn-outline {
@@ -48,18 +46,3 @@ body {
   border: solid 2px white;
 }
 
-
-button {
-    background-color: grey; 
-    border: 2px solid;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Averia Serif Libre", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin:auto;
-    display:block;
-    border-radius: 30px;
-
-}
